@@ -60,6 +60,10 @@ declare module 'qdt-components' {
      * QdtInstance is occupying.
      */
     unmount(): void;
+    /**
+    * Reference to the QdtComponent instance root node
+    */
+    node: any
   }
 
   export interface QdtConnections {
