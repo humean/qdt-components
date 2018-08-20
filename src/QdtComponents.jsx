@@ -41,7 +41,7 @@ const QdtComponents = class {
           {...props}
           qAppPromise={qAppPromise}
           qDocPromise={qDocPromise}
-          ref={node => resolve(node)} 
+          ref={node => resolve(node)}
         />,
         element,
       );
